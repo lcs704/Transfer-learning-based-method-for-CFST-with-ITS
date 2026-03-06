@@ -353,7 +353,7 @@ def main():
 
     plot_predictions(y_train, y_train_pred, y_test, y_test_pred)
 
-    ---save for GUI---
+    # ---save for GUI---
     save_model(model, scaler)
 
     print("\n=== finish ===")
@@ -362,3 +362,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
